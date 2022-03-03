@@ -1,0 +1,35 @@
+class Employee
+{
+ 
+   
+ 
+   int emp_salary, emp_yoj;
+ 
+   String emp_name, emp_address;
+   
+   Employee(int sal,int yoj, string n, string add){
+    emp_salary=sal;
+    emp_yoj= yoj;
+     emp_name=n;
+    emp_address=add;
+    }
+    
+     public void print(){
+        System.out.println(emp_name\t +emp_yoj\t +emp_address);
+       }
+ 
+}
+public class Main{
+   public static void main(String args[]){
+   Employee E1 = new Employee(Robert,1994,64C- WallsStreet);
+   Employee E2 = new Employee(Sam 2000 68D- WallsStreet);
+   Employee E3 = new Employee(John 1999 26B- WallsStreet);
+  
+   System.out.println("NAME"\t +"YEAR OF JOINING"\t +"ADDRESS");
+
+   E1.print();
+   E2.print();
+   E3.print();
+
+  }
+}
